@@ -4,6 +4,7 @@ import Main8 from './screens/Main8';
 import Main12 from './screens/Main12';
 import Main11 from './screens/Main11';
 import Main9 from './screens/Main9';
+import Main7 from './screens/Main7';
 
 const Stack = createStackNavigator();
 
@@ -15,7 +16,7 @@ const App = () => {
         //         <Stack.Screen name="Category" component={Main7} />
         //     </Stack.Navigator>
         // </NavigationContainer>
-        <Main12 />
+        <Main7 />
     );
 };
 
